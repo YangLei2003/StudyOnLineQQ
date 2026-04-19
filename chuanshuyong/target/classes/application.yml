@@ -1,0 +1,30 @@
+server:
+  port: 9251
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/finshwork?&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  servlet:
+    multipart:
+      max-file-size: 1024GB
+      max-request-size: 1024GB
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    #    password: 123456
+    database: 6
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 10
+        min-idle: 1
+        time-between-eviction-runs: 10s
+
+
+mybatis-plus:
+  mapperLocations: classpath:mapper/**/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OnlineLearnApi.iml" filepath="$PROJECT_DIR$/OnlineLearnApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../OnlineLearnVue/OnlineLearnVue.iml" filepath="$PROJECT_DIR$/../OnlineLearnVue/OnlineLearnVue.iml" />
+    </modules>
+  </component>
+</project>
